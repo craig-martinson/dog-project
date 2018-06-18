@@ -4,44 +4,91 @@ Convolutional Neural Networks (CNN) project developed for Udacity's Deep Learnin
 
 ## Getting Started
 
-### Environment
+
+### Setup Environment
+
+#### Linux
 
 Tested on the following environment:
 
+- Ubuntu 16.04.4 LTS
+- NVIDIA GTX1080 (driver version 384.130)
+- CUDA® Toolkit 9.0
+- cuDNN v7.0
+
+Create a Linux Conda environment with **CPU** backend and upgrade tensorflow:
+
+``` batch
+conda env create -f requirements/dog-linux.yml
+conda activate dog-project
+pip install --ignore-installed --upgrade tensorflow
+KERAS_BACKEND=tensorflow python -c "from keras import backend"
+python -m ipykernel install --user --name dog-project --display-name "dog-project"
+ ```
+
+Create a Linux Conda environment with **GPU** backend and upgrade tensorflow:
+
+``` batch
+conda env create -f requirements/dog-linux-gpu.yml
+conda condaactivate dog-project
+pip install --ignore-installed --upgrade tensorflow-gpu
+KERAS_BACKEND=tensorflow python -c "from keras import backend"
+python -m ipykernel install --user --name dog-project --display-name "dog-project"
+```
+
 #### Windows
+
+Tested on the following environment:
 
 - Windows 10 Pro, 64-bit
 - NVIDIA GTX1080 (driver version 385.54)
 - CUDA® Toolkit 9.0
 - cuDNN v7.0
 
-#### Setup Environment
-
-Create a conda environment with CPU backend and upgrade tensorflow:
+Create a Windows Conda environment with **CPU** backend and upgrade tensorflow:
 
 ``` batch
 conda env create -f requirements/dog-windows.yml
-activate dog-project
+conda activate dog-project
 pip install --ignore-installed --upgrade tensorflow
+set KERAS_BACKEND=tensorflow
+python -c "from keras import backend"
+python -m ipykernel install --user --name dog-project --display-name "dog-project"
  ```
 
-Create a conda environment with GPU backend and upgrade tensorflow:
+Create a Windows Conda environment with **GPU** backend and upgrade tensorflow:
 
 ``` batch
 conda env create -f requirements/dog-windows-gpu.yml
-activate dog-project
+conda activate dog-project
 pip install --ignore-installed --upgrade tensorflow-gpu
+set KERAS_BACKEND=tensorflow
+python -c "from keras import backend"
+python -m ipykernel install --user --name dog-project --display-name "dog-project"
 ```
 
-Clone the repository:
+### Setup Project
+
+#### Clone the Repository
 
 ``` batch
 git clone https://github.com/geoglyph/dog-project.git
 cd dog-project
 ```
 
-Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).  Unzip the folder and place it in the repo, at location `dog-project/dogImages`
+#### Download Supporting Files
+##### Datasets
 
-Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip).  Unzip the folder and place it in the repo, at location `dog-project/lfw`
+Download the following datasets and copy to `dog-project/dogImages` and `dog-project/lfw` respectively.
 
-Donwload the [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) for the dog dataset.  Place it in the repo, at location `dog-project/bottleneck_features`
+[dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)
+
+[human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip)
+
+##### Pre-computed Bottleneck Features
+
+Download the folloiing pre-computed bottleneck features and copy to `dog-project/bottleneck_features.
+
+[VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz)
+
+[Inception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz)
