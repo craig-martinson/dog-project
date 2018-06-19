@@ -93,8 +93,8 @@ Download the following pre-computed bottleneck features and copy to `dog-project
 ## References
 The following resources were used in developing this project:
 
-ID | Usage | Link
---- | --- | --- 
-1. | Python code used to visualise loss history when training a Keras model | [Visualize Loss History](https://chrisalbon.com/deep_learning/keras/visualize_loss_history/)
-2. | Keras data augmentation example (cifar10-augmentation/cifar10_augmentation.ipynb) | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
-3. | Keras bottlenet feature extraction (transfer-learning/bottleneck_features.ipynb) | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
+Usage | Link
+--- | ---
+Python code used to visualise loss history when training a Keras model | [Visualize Loss History](https://chrisalbon.com/deep_learning/keras/visualize_loss_history/)
+Keras data augmentation example (cifar10-augmentation/cifar10_augmentation.ipynb) | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
+Keras bottlenet feature extraction (transfer-learning/bottleneck_features.ipynb) | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
