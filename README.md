@@ -96,5 +96,5 @@ The following resources were used in developing this project:
 Usage | Link
 --- | ---
 Python code used to visualise loss history when training a Keras model | [Visualize Loss History](https://chrisalbon.com/deep_learning/keras/visualize_loss_history/)
-Keras data augmentation example (cifar10-augmentation/cifar10_augmentation.ipynb) | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
-Keras bottlenet feature extraction (transfer-learning/bottleneck_features.ipynb) | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
+Keras data augmentation example<br>refer: cifar10-augmentation/cifar10_augmentation.ipynb | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
+Keras bottlenet feature extraction<br>refer: transfer-learning/bottleneck_features.ipynb | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
