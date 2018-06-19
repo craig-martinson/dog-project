@@ -4,10 +4,16 @@ Convolutional Neural Networks (CNN) project developed for Udacity's Deep Learnin
 
 ## Getting Started
 
-
 ### Setup Environment
 
-#### Linux
+#### Clone the Repository
+
+``` batch
+git clone https://github.com/geoglyph/dog-project.git
+cd dog-project
+```
+
+#### Setup Linux
 
 Tested on the following environment:
 
@@ -36,7 +42,7 @@ KERAS_BACKEND=tensorflow python -c "from keras import backend"
 python -m ipykernel install --user --name dog-project --display-name "dog-project"
 ```
 
-#### Windows
+#### Setup Windows
 
 Tested on the following environment:
 
@@ -65,15 +71,6 @@ pip install --ignore-installed --upgrade tensorflow-gpu
 set KERAS_BACKEND=tensorflow
 python -c "from keras import backend"
 python -m ipykernel install --user --name dog-project --display-name "dog-project"
-```
-
-### Setup Project
-
-#### Clone the Repository
-
-``` batch
-git clone https://github.com/geoglyph/dog-project.git
-cd dog-project
 ```
 
 #### Download Supporting Files
