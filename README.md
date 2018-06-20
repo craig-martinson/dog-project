@@ -74,6 +74,7 @@ python -m ipykernel install --user --name dog-project --display-name "dog-projec
 ```
 
 #### Download Supporting Files
+
 ##### Datasets
 
 Download the following datasets and copy to `dog-project/dogImages` and `dog-project/lfw` respectively.
@@ -91,10 +92,12 @@ Download the following pre-computed bottleneck features and copy to `dog-project
 [Inception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz)
 
 ## References
+
 The following resources were used in developing this project:
 
 Usage | Link
 --- | ---
 Python code used to visualise loss history when training a Keras model | [Visualize Loss History](https://chrisalbon.com/deep_learning/keras/visualize_loss_history/)
 Keras data augmentation example<br>refer: cifar10-augmentation/cifar10_augmentation.ipynb | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
-Keras bottlenet feature extraction<br>refer: transfer-learning/bottleneck_features.ipynb | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
+Keras bottleneck feature extraction<br>refer: transfer-learning/bottleneck_features.ipynb | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
+Keras bottleneck feature extraction with data augmentation | [The Keras Blog](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html)
