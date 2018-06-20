@@ -27,7 +27,7 @@ Create a Linux Conda environment with **CPU** backend and upgrade tensorflow:
 ``` batch
 conda env create -f requirements/dog-linux.yml
 conda activate dog-project
-pip install --ignore-installed --upgrade tensorflow
+pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.8.0-cp36-cp36m-linux_x86_64.whl
 KERAS_BACKEND=tensorflow python -c "from keras import backend"
 python -m ipykernel install --user --name dog-project --display-name "dog-project"
  ```
@@ -37,7 +37,7 @@ Create a Linux Conda environment with **GPU** backend and upgrade tensorflow:
 ``` batch
 conda env create -f requirements/dog-linux-gpu.yml
 conda condaactivate dog-project
-pip install --ignore-installed --upgrade tensorflow-gpu
+pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.8.0-cp36-cp36m-linux_x86_64.whl
 KERAS_BACKEND=tensorflow python -c "from keras import backend"
 python -m ipykernel install --user --name dog-project --display-name "dog-project"
 ```
