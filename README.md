@@ -84,8 +84,17 @@ Download the following datasets and copy to `dog-project/dogImages` and `dog-pro
 
 ##### Pre-computed Bottleneck Features
 
-Download the folloiing pre-computed bottleneck features and copy to `dog-project/bottleneck_features.
+Download the following pre-computed bottleneck features and copy to `dog-project/bottleneck_features.
 
 [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz)
 
 [Inception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz)
+
+## References
+The following resources were used in developing this project:
+
+ID | Usage | Link
+--- | --- | --- 
+1. | Python code used to visualise loss history when training a Keras model | [Visualize Loss History](https://chrisalbon.com/deep_learning/keras/visualize_loss_history/)
+2. | Keras data augmentation example (cifar10-augmentation/cifar10_augmentation.ipynb) | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
+3. | Keras bottlenet feature extraction (transfer-learning/bottleneck_features.ipynb) | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
