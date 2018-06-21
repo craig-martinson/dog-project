@@ -12,19 +12,33 @@ def print_elapsed_time(total_time):
     print(
         "\n** Total Elapsed Runtime: {:0>2}:{:0>2}:{:0>2}".format(hh, mm, ss))
 
-# Visualize Loss History
-# refer https://chrisalbon.com/deep_learning/keras/visualize_loss_history/ for details
+
+def plot_accuracy(history):
+    # get accuracy histories
+    training_acc = history.history['acc']
+    validation_acc = history.history['val_acc']
+
+    # ceate count of the number of epochs
+    epoch_count = range(1, len(training_acc) + 1)
+
+    # visualize accuracy history
+    plt.plot(epoch_count, training_acc, 'r--')
+    plt.plot(epoch_count, validation_acc, 'b-')
+    plt.legend(['Training Accuracy', 'Validation Accuracy'])
+    plt.xlabel('Epoch')
+    plt.ylabel('Accuracy')
+    plt.show()
 
 
-def visualize_loss_history(history):
-    # Get training and test loss histories
+def plot_loss(history):
+    # get loss histories
     training_loss = history.history['loss']
     validation_loss = history.history['val_loss']
 
-    # Create count of the number of epochs
+    # create count of the number of epochs
     epoch_count = range(1, len(training_loss) + 1)
 
-    # Visualize loss history
+    # visualize loss history
     plt.plot(epoch_count, training_loss, 'r--')
     plt.plot(epoch_count, validation_loss, 'b-')
     plt.legend(['Training Loss', 'Validation Loss'])
