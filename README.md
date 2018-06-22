@@ -91,6 +91,15 @@ Download the following pre-computed bottleneck features and copy to `dog-project
 
 [Inception bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogInceptionV3Data.npz)
 
+## Jupyter Notebooks
+
+The following jupyter notebooks were developed to support this project:
+
+Notebook | Link
+--- | ---
+Project notebook provided by Udacity | [Dog App](./dog_app.html)
+Additional notebook providing example of using data augmentation with transfer learning | [Dog App Augmented](./dog_app_augmented.html)
+
 ## References
 
 The following resources were used in developing this project:
