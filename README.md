@@ -111,7 +111,7 @@ The following python programs were developed to support this project:
 Description | File
 --- | ---
 Runs inference on each file in /images folder using saved InceptionV3 model | [predict_breed.py](./predict_breed.py)
-Uses [flask](http://flask.pocoo.org/) to host simple REST API providing inference on saved InceptionV3 model | [predict_breed_server.py](./predict_breed.py)
+Use [flask](http://flask.pocoo.org/) to host simple REST API providing inference on saved InceptionV3 model | [predict_breed_server.py](./predict_breed_server.py)
 Used to test REST API, sends each file in /images folder to REST API for inference | [server_api_test.py](./server_api_test.py)
 
 ## References
@@ -121,7 +121,7 @@ The following resources were used in developing this project:
 Usage | Link
 --- | ---
 Python code used to visualise loss history when training a Keras model | [Visualize Loss History](https://chrisalbon.com/deep_learning/keras/visualize_loss_history/)
-Keras data augmentation example<br>refer: cifar10-augmentation/cifar10_augmentation.ipynb<br>Used in development of data augmentaiton code in Jupyter notebooks  | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
+Keras data augmentation example<br>refer: cifar10-augmentation/cifar10_augmentation.ipynb<br>Used in development of data augmentation code in Jupyter notebooks  | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
 Keras bottleneck feature extraction<br>refer: transfer-learning/bottleneck_features.ipynb<br>Used in development of feature extraction code in Jupyter notebooks | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
 Keras bottleneck feature extraction with data augmentation<br>Used as initial inspiration for [Dog App Augmented](./dog_app_augmented/dog_app_augmented.md) | [The Keras Blog](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html)
 Deploying a Keras model as a REST API<br>Used as initial inspiration for [predict_breed_server.py](./predict_breed.py) | [The Keras Blog](https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html)
