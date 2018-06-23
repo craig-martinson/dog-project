@@ -112,7 +112,7 @@ Description | File
 --- | ---
 Runs inference on each file in /images folder using saved InceptionV3 model | [predict_breed.py](./predict_breed.py)
 Uses [flask](http://flask.pocoo.org/) to host simple REST API providing inference on saved InceptionV3 model | [predict_breed_server.py](./predict_breed.py)
-Used to test REST API, sends each file in /images folder to REST API for inference | [server_api_test.py](./server_api_testpy)
+Used to test REST API, sends each file in /images folder to REST API for inference | [server_api_test.py](./server_api_test.py)
 
 ## References
 
