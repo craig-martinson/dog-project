@@ -1333,11 +1333,29 @@ for sample_image in sample_images:
 
     This dog looks like a Welsh_springer_spaniel
     
-    Processing: images/Brittany_02625.jpg
+    Processing: images/images.jpeg
 
 
 
 ![png](output_78_9.png)
+
+
+    This human looks like a Bouvier_des_flandres
+    
+    Processing: images/download.jpeg
+
+
+
+![png](output_78_11.png)
+
+
+    This human looks like a Cardigan_welsh_corgi
+    
+    Processing: images/Brittany_02625.jpg
+
+
+
+![png](output_78_13.png)
 
 
     This dog looks like a Brittany
@@ -1346,7 +1364,7 @@ for sample_image in sample_images:
 
 
 
-![png](output_78_11.png)
+![png](output_78_15.png)
 
 
     This dog looks like a Labrador_retriever
@@ -1355,7 +1373,7 @@ for sample_image in sample_images:
 
 
 
-![png](output_78_13.png)
+![png](output_78_17.png)
 
 
     This dog looks like a Labrador_retriever
@@ -1364,7 +1382,7 @@ for sample_image in sample_images:
 
 
 
-![png](output_78_15.png)
+![png](output_78_19.png)
 
 
     Error neither human or dog detected!
@@ -1373,7 +1391,7 @@ for sample_image in sample_images:
 
 
 
-![png](output_78_17.png)
+![png](output_78_21.png)
 
 
     Error neither human or dog detected!
@@ -1382,7 +1400,7 @@ for sample_image in sample_images:
 
 
 
-![png](output_78_19.png)
+![png](output_78_23.png)
 
 
     This dog looks like a Labrador_retriever
