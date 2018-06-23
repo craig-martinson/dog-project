@@ -97,8 +97,8 @@ The following jupyter notebooks were developed to support this project:
 
 Notebook | Link
 --- | ---
-Project notebook provided by Udacity | [Dog App](./dog_app.html)
-Additional notebook providing example of using data augmentation with transfer learning | [Dog App Augmented](./dog_app_augmented.html)
+Project notebook provided by Udacity, demonstrates transfer learning with Keras | [Dog App](./dog_app/dog_app.md)
+Demonstrates the use of data augmentation with transfer learning with Keras | [Dog App Augmented](./dog_app_augmented/dog_app_augmented.md)
 
 ## References
 
