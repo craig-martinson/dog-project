@@ -110,3 +110,4 @@ Python code used to visualise loss history when training a Keras model | [Visual
 Keras data augmentation example<br>refer: cifar10-augmentation/cifar10_augmentation.ipynb | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
 Keras bottleneck feature extraction<br>refer: transfer-learning/bottleneck_features.ipynb | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
 Keras bottleneck feature extraction with data augmentation | [The Keras Blog](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html)
+Deploying a Keras model as a REST API. | [The Keras Blog](https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html)
