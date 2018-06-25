@@ -101,8 +101,8 @@ The following jupyter notebooks were developed to support this project:
 
 Description | Link
 --- | ---
-Project notebook provided by Udacity, demonstrates transfer learning with Keras | [Dog App Notebook](./dog_app/dog_app.md)
-Demonstrates the use of data augmentation with transfer learning with Keras | [Dog App Augmented Notebook](./dog_app_augmented/dog_app_augmented.md)
+Project notebook provided by Udacity, demonstrates transfer learning with Keras | [Dog App Notebook](./dog_app.ipynb)
+Demonstrates the use of data augmentation with transfer learning with Keras | [Dog App Augmented Notebook](./dog_app_augmented.ipynb)
 
 ## Python Programs
 
@@ -123,5 +123,5 @@ Usage | Link
 Python code used to visualise loss history when training a Keras model | [Visualize Loss History](https://chrisalbon.com/deep_learning/keras/visualize_loss_history/)
 Keras data augmentation example<br>refer: cifar10-augmentation/cifar10_augmentation.ipynb<br>Used in development of data augmentation code in Jupyter notebooks  | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
 Keras bottleneck feature extraction<br>refer: transfer-learning/bottleneck_features.ipynb<br>Used in development of feature extraction code in Jupyter notebooks | [AIND Term 2 -- Lesson on Convolutional Neural Networks](https://github.com/udacity/aind2-cnn)
-Keras bottleneck feature extraction with data augmentation<br>Used as initial inspiration for [Dog App Augmented](./dog_app_augmented/dog_app_augmented.md) | [The Keras Blog](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html)
+Keras bottleneck feature extraction with data augmentation<br>Used as initial inspiration for [Dog App Augmented](./dog_app_augmented.ipynb) | [The Keras Blog](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html)
 Deploying a Keras model as a REST API<br>Used as initial inspiration for [predict_breed_server.py](./predict_breed.py) | [The Keras Blog](https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html)

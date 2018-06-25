@@ -3,5 +3,5 @@ __pycache__/
 .ipynb_checkpoints/
 dogImages/
 lfw/
-saved_models/
+saved_models/*.hdf5
 bottleneck_features/
